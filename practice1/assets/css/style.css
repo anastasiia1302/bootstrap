@@ -1,22 +1,22 @@
 .header a, a:hover {
-	color: #f0ad4e;
-	text-decoration: none;
+	color: #FF9966;
+	text-decoration: overline underline;
 }
 
 .header h1 {
 	letter-spacing: 15px;
-	font-size: 300%;
+	font-size: 350%;
 }
 
 .header p {
-	color: white !important;
-	font-size: 90%;
-	letter-spacing: 3px;
+	color: #FF9999 !important;
+	font-size: 120%;
+	letter-spacing: 4px;
 }
 
 
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
-	color: #fff;
+	color: #FF9966;
 	background-color: #346270; 
 }
 
@@ -25,7 +25,7 @@
 }
 
 .nav-pills>li>a:hover {
-	background-color: #346270;
+	background-color: #FF9966;
 }
 
 
@@ -68,20 +68,20 @@ html, body {
 }
 
 
-.films_block {
+.games_block {
 	text-align: center;
 }
 
-.films_block img {
-	margin-bottom: 5%;
-	border-radius: 5px;
-	border: solid 5px #dad7d5;
+.games_block img {
+	margin-bottom: 2%;
+	border-radius: 10px;
+	border: solid 10px #dad7d5;
 	width: 100%;
 }
 
-.film_label {
+.game_label {
 	padding: 2%;
-	margin-bottom: 4%;
+	margin-bottom: 8%;
 }
 
 .margin-8 {
@@ -90,7 +90,7 @@ html, body {
 
 
 .panel {
-	border: none;
+	border: solid;
 }
 
 .panel-body {
@@ -98,9 +98,9 @@ html, body {
 }
 
 .panel-info>.panel-heading {
-	background-color: #f0ad4e;
-	color: white;
-	border-color: transparent;
+	background-color: #FF9966;
+	color: black;
+	border-color: coral;
 }
 
 .sidebar-header {
@@ -157,10 +157,9 @@ footer {
 }
 
 footer a {
-	color: #999;
+	color: #FF9966;
 }
 
 footer a:hover {
 	color: #efefef;
 }
-
